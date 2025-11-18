@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Мій сайт</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">Логотип</div>
+  <nav id="mainNav">
+    <a href="#home" data-view="home" class="active">Головна</a>
+    <a href="#tasks" data-view="tasks">Завдання</a>
+    <a href="#team" data-view="team">Моя команда</a>
+  </nav>
+</header>
+
+<main class="frame">
+  <div class="content-area">
+
+    <!-- ГОЛОВНА -->
+    <section id="home" class="page">
+      <div class="left">
+        <div class="info-card">
+          <h3>Текст з інформацією про мене</h3>
+          <p>Привіт! Мене звати Максим, я навчаюсь в ТНТУ за спеціальністю F7 комп'ютерна інженерія. Сайт створений для виконання 8 лабораторної з дисципліни «Основи комп'ютерної інженерії».</p>
+        </div>
+
+        <p>Мої соціальні мережі:</p>
+        <div class="social-row">
+
+          <div class="social-dot">
+            <a href="https://instagram.com/n0tmemory" aria-label="Instagram">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1024px-Instagram_logo_2022.svg.png"
+                   alt="Instagram" width="35" height="35" style="border-radius: 8px;">
+            </a>
+          </div>
+
+          <div class="social-dot">
+            <a href="https://facebook.com/maks" aria-label="Facebook">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png"
+                   alt="Facebook" width="35" height="35" style="border-radius: 8px;">
+            </a>
+          </div>
+
+          <div class="social-dot">
+            <a href="https://youtube.com" aria-label="YouTube">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/YouTube_social_white_square_%282024%29.svg/1024px-YouTube_social_white_square_%282024%29.svg.png"
+                   alt="YouTube" width="35" height="35" style="border-radius: 8px;">
+            </a>
+          </div>
+
+          <div class="social-dot">
+            <a href="https://tiktok.com/mak1123we" aria-label="TikTok">
+              <img src="https://img.utdstc.com/icon/32d/af5/32daf5ad34af15eb8ea853325ec1838574e3a6d572c204950d42471cc2ceba94:100"
+                   alt="TikTok" width="35" height="35" style="border-radius: 8px;">
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="photo">
+          <img src="https://upload.wikimedia.org/wikipedia/uk/6/67/TNTUmain.jpg"
+               alt="TNTU" width="410" height="300" style="border-radius: 8px;">
+        </div>
+      </div>
+    </section>
+
+    <!-- ЗАВДАННЯ -->
+    <section id="tasks" class="page hidden">
+      <div class="left">
+        <div class="info-card">
+          <h3>Варіант завдання №1</h3>
+          <p>Створити таблицю множення розміром 10×10 для чисел 21–30, помножених на номер варіанта, та список чисел, кратних 5, починаючи з 25.</p>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="table-box">
+          <img src="https://cdn.imgchest.com/files/4e4cd84d535b.png"
+               alt="Таблиця" width="500" height="100" style="border-radius: 8px;">
+        </div>
+      </div>
+    </section>
+
+    <!-- МОЯ КОМАНДА — ОНОВЛЕНИЙ ВАРІАНТ -->
+    <section id="team" class="page hidden">
+      <div class="left">
+        <div class="info-card">
+          <h3>Учасники моєї команди</h3>
+
+          <!-- Порожній список як вимагає завдання -->
+          <ul id="teamList">
+            <!-- майбутні посилання будуть додані тут -->
+          </ul>
+
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="table-box">
+          <p>Список посилань наразі порожній</p>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
