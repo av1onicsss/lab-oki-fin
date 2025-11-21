@@ -108,7 +108,7 @@ nav a.active::after {
   font-weight: bold;
 }
 
-/* ----- Права частина ----- */
+
 .right {
   width: 40%;
   display: flex;
@@ -143,12 +143,40 @@ nav a.active::after {
   align-items: center;
 }
 
-/* ----- Адаптив ----- */
+
 @media (max-width: 800px) {
   .page {
     flex-direction: column;
   }
   .right {
     width: 100%;
+  
   }
+  .table-box {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.table-box table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table-box th,
+.table-box td {
+  border: 1px solid #c8e0ea;
+  padding: 8px 10px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.table-box th {
+  background: #dff6ff;
+  font-weight: bold;
+  color: #073642;
+}
 }
